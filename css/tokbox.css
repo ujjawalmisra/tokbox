@@ -1,0 +1,33 @@
+body {
+	font-family: "Roboto";
+	padding: 1em;
+}
+
+.header {
+	color: #55555;
+	text-align: center;
+}
+
+.header h1 {
+	font-size: 38px;
+	font-weight: 300;
+}
+
+.footer {}
+
+.content {
+	padding: 1em;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.video-box {
+	background-color: #f7f7f7;
+	padding: 1em;
+	border: dashed 1px #cccccc;
+	width: 400px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TokBox</title>
+	
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+	<link href="//fonts.googleapis.com/css?family=Roboto:100italic,100,300italic,300,400italic,400,500italic,500,700italic,700,900italic,900" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="../css/tokbox.css">
+	
+	<script type="text/javascript" src="//static.opentok.com/webrtc/v2.2/js/opentok.min.js"></script>
+</head>
+<body>
+	<div class="header">
+		<h1>TokBox</h1>
+	</div>
+
+	<div class="content">
+		<div class="pure-g center">
+			<div id="myPublisher" class="pure-u-1-2 video-box"></div>
+			<div id="mySubscriber" class="pure-u-1-2 video-box"></div>
+		</div>
+	</div>
+
+	<div class="footer">
+	</div>
+	
+	<!-- TODO: Put the config in the JS config file below -->
+	<script type="text/javascript" src="../js/p2p-config.js"></script>
+	<script type="text/javascript" src="../js/tokbox.js"></script>
+	<script type="text/javascript">
+		// Initialize session, set up event listeners, and connect
+		var session = VTokBox.initSession(apiKey, sessionId, token);
+    </script>
+</body>
+</html>
