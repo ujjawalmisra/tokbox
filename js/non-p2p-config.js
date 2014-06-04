@@ -4,7 +4,7 @@
 
 var apiKey = "00000000";
 
-// P2P: Enabled
+// P2P: Disabled
 var sessionId = "xxxxxxxx";
 
 // Role: Publisher
